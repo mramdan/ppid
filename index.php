@@ -43,7 +43,7 @@ if (!empty($_GET['q'])) {
     }
 
     .title {
-      font-size: 96px;
+      font-size: 70px;
     }
 
     .opt {
@@ -67,13 +67,11 @@ if (!empty($_GET['q'])) {
       <div class="title" title="Laragon">PPID BAWASLU</div>
 
       <div class="info"><br />
-        <?php print($_SERVER['SERVER_SOFTWARE']); ?><br />
-        PHP version: <?php print phpversion(); ?> <span><a title="phpinfo()" href="/?q=info">info</a></span><br />
-        Document Root: <?php print($_SERVER['DOCUMENT_ROOT']); ?><br />
+        Wesite resmi PPID Bawaslu Purwakarta
 
       </div>
       <div class="opt">
-        <div><a title="Getting Started" href="https://laragon.org/docs">Getting Started</a></div>
+        <div><a title="Getting Started" href="#">Coming Soon...</a></div>
       </div>
     </div>
 
