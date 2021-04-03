@@ -12,7 +12,7 @@ if (!empty($_GET['q'])) {
 <html>
 
 <head>
-  <title>Laragon</title>
+  <title>PPID Bawaslu Purwakarta</title>
 
   <link href="https://fonts.googleapis.com/css?family=Karla:400" rel="stylesheet" type="text/css">
 
@@ -71,7 +71,7 @@ if (!empty($_GET['q'])) {
 
       </div>
       <div class="opt">
-        <div><a title="Getting Started" href="#">Coming Soon...</a></div>
+        <div><a title="Launching soon, be patient." href="#">Coming Soon ...</a></div>
       </div>
     </div>
 
