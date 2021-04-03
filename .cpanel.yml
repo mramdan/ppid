@@ -1,9 +1,5 @@
 ---
- 
 deployment:
- 
- tasks:
- 
- - export DEPLOYPATH=/home/purwakartakab/public_html/ppid.purwakartakab.bawaslu.go.id
- 
- - /usr/bin/rsync -Paz * $DEPLOYPATH --delete
+  tasks:
+    - export DEPLOYPATH=/home/purwakartakab/public_html/ppid.purwakartakab.bawaslu.go.id/
+    - /bin/cp * $DEPLOYPATH
